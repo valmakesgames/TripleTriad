@@ -14,6 +14,6 @@ public class CardData : ScriptableObject
     public int bottomRankNumber;
     
     [Header("Card Type")]
-    public bool isElemental;
+    // Does this card have an Elemental Attribute, add the Elemental image
     public Sprite elementalImage;
 }
