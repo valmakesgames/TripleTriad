@@ -1,7 +1,7 @@
 using UnityEngine;
 
 // Scriptable Object to make TT Cards with
-[CreateAssetMenu(fileName = "NewCard", menuName = "CreateCard")]
+[CreateAssetMenu(fileName = "NewCard", menuName = "New TT Card")]
 public class CardData : ScriptableObject
 {
     [Header("Card Image")]
