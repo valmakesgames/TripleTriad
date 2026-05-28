@@ -334,6 +334,7 @@ GameObject:
   - component: {fileID: 5518107354794982691}
   - component: {fileID: 4404030261423703570}
   - component: {fileID: 2218847497550129044}
+  - component: {fileID: 7589721115384687355}
   m_Layer: 5
   m_Name: TTCard
   m_TagString: Untagged
@@ -413,6 +414,24 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &7589721115384687355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3983360230719316102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edd24263ecbd29d40b470b18b001baf2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CardDisplay
+  cardImage: {fileID: 3524958139525770794}
+  cardElementIcon: {fileID: 5798523596329503918}
+  topRankNumber: {fileID: 4696225275454566215}
+  leftRankNumber: {fileID: 6992057617452413010}
+  rightRankNumber: {fileID: 5634284280319094292}
+  bottomRankNumber: {fileID: 8420486722853287585}
 --- !u!1 &5295576349113466378
 GameObject:
   m_ObjectHideFlags: 0
