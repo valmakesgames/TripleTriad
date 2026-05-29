@@ -12,10 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4927dd016dfe664498764c58a3c446f, type: 3}
   m_Name: TestCard
   m_EditorClassIdentifier: Assembly-CSharp::CardData
-  cardImage: {fileID: 0}
-  topRankNumber: 0
-  leftRankNumber: 0
-  rightRankNumber: 0
-  bottomRankNumber: 0
-  isElemental: 0
+  cardImage: {fileID: 21300000, guid: fd808e6bb512c774096e134def98e824, type: 3}
+  topRankNumber: 3
+  leftRankNumber: 4
+  rightRankNumber: 6
+  bottomRankNumber: 4
   elementalImage: {fileID: 0}

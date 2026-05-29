@@ -16,4 +16,14 @@ public class CardData : ScriptableObject
     [Header("Card Type")]
     // Does this card have an Elemental Attribute, add the Elemental image
     public Sprite elementalImage;
+
+    // Method to handle if a rank number is 10, ToString it to the letter A
+    public string GetRankNumberDisplay(int rank) {
+        if (rank == 10) {
+            return "A";
+        }
+        else {
+            return rank.ToString();
+        }
+    }
 }

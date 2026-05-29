@@ -22,4 +22,15 @@ public class CardDisplay : MonoBehaviour
    
    [SerializeField]
    private TMP_Text bottomRankNumber;
+   
+  // Method to populate TT Card prefab with data from Scriptable Object
+  public void PopulateCard(CardData cardData) {
+      cardImage.sprite = cardData.cardImage;
+      cardElementIcon.sprite = cardData.elementalImage;
+
+      topRankNumber.text = cardData.GetRankNumberDisplay(cardData.topRankNumber);
+      leftRankNumber.text = cardData.GetRankNumberDisplay(cardData.leftRankNumber);
+      rightRankNumber.text = cardData.GetRankNumberDisplay(cardData.rightRankNumber);
+      bottomRankNumber.text = cardData.GetRankNumberDisplay(cardData.bottomRankNumber);
+  }
 }
