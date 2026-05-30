@@ -67,7 +67,7 @@ public class CardDisplay : MonoBehaviour
 
     public void CompareTopRankNumbers(CardData cardATopRankNumber, CardData cardBTopRankNumber) {
         
-        // Need variable for winning card - how?
+        // Need variable for winning card
         string winningCard = "";
         
         if (cardATopRankNumber.topRankNumber > cardBTopRankNumber.topRankNumber) {
@@ -81,4 +81,24 @@ public class CardDisplay : MonoBehaviour
         }
         Debug.Log("Winning card is " + winningCard);
     }
+
+    public bool IsElemental(CardData cardData) {
+        
+        
+        
+        return false;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
