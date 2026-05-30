@@ -34,6 +34,17 @@ public class CardDisplay : MonoBehaviour
         
         // Test PopulateCard method
         PopulateCard(testCard);
+        
+        // Test bool IsCardElemental
+        bool isElemental = IsCardElemental(cardA);
+        if (isElemental == true) {
+            Debug.Log("This card has an elemental attribute!");
+        }
+        else {
+            Debug.Log("No elemental attribute");
+        }
+        
+        
     }
 
     // Method to populate TT Card prefab with data from Scriptable Object
@@ -82,11 +93,14 @@ public class CardDisplay : MonoBehaviour
         Debug.Log("Winning card is " + winningCard);
     }
 
-    public bool IsElemental(CardData cardData) {
-        
-        
-        
-        return false;
+    public bool IsCardElemental(CardData cardData) {
+
+        if (cardData.elementalImage != null) {
+            return true;
+        }
+        else {
+            return false;
+        }
     }
 }
 
