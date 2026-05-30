@@ -784,6 +784,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3476889965910523542, guid: 8648be27a4d399e4bba3920fc4761b05, type: 3}
+      propertyPath: cardA
+      value: 
+      objectReference: {fileID: 11400000, guid: fe727d465c233ee4c8222507c677ca6e, type: 2}
+    - target: {fileID: 3476889965910523542, guid: 8648be27a4d399e4bba3920fc4761b05, type: 3}
+      propertyPath: cardB
+      value: 
+      objectReference: {fileID: 11400000, guid: 421d219b53b848e489da8d66f3ffb06a, type: 2}
+    - target: {fileID: 3476889965910523542, guid: 8648be27a4d399e4bba3920fc4761b05, type: 3}
       propertyPath: testCard
       value: 
       objectReference: {fileID: 11400000, guid: 81b1b3e4161334849858973d0d6ee769, type: 2}

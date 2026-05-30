@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a4927dd016dfe664498764c58a3c446f, type: 3}
-  m_Name: TestCard
+  m_Name: CardB
   m_EditorClassIdentifier: Assembly-CSharp::CardData
-  cardImage: {fileID: 21300000, guid: f61a113ab5fcf6a4ea023639c54dbdbb, type: 3}
-  topRankNumber: 10
-  leftRankNumber: 6
-  rightRankNumber: 6
-  bottomRankNumber: 3
+  cardImage: {fileID: 21300000, guid: 814ec4494ab953a42893e7fef4c791b0, type: 3}
+  topRankNumber: 5
+  leftRankNumber: 5
+  rightRankNumber: 8
+  bottomRankNumber: 6
   elementalImage: {fileID: 0}
